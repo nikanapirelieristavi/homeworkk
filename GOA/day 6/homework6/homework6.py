@@ -3,9 +3,8 @@ number= 1
 
 while number<=30:
     print("the number is odd", number)
-    number = number + 1
+    number += 1
     print("the number is even", number)
-    number = number + 1
-
+    number += 1
 
     
