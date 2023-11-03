@@ -3,18 +3,11 @@
 # და დაპრინტავს "ასეთი სამკუთხედი იარსებებს", 
 # ან დაპრინტავს "ასეთი სამკუთხედი ვერ იარსებებს" )
 
-def triangle ():
-    first = print(int(input("the first side: ")))
-    second = print(int(input("the second side: ")))
-    third = print(int(input("the third side: ")))
-    print(first)
-    print(second)
-    print(third)
-
-    if first or second or third <= 0:
-        print("this triangle is invalid!")
+def triangle (first,second,third):
+    if first or second or third > 0:
+        print("this triangle is valid!")
     else:
-        print("success!")
+        print("this triangle does not exist!")
 
-triangle()
+triangle(4, 5, 6)
     
