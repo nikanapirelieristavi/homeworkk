@@ -10,3 +10,9 @@ print(full_sentence)
 age2 =[25, 55, 50]
 full_sentence2 = "my mom's name is {}, she is {}, my dad's name is {}, he is {}, my name is {}, I am {} years old".format(family[2],age2[2],family[1],age2[1],family[0],age2[0])
 print(full_sentence2)
+
+
+x=[2, 4, 6, 2, 4, 7, 2, 9]
+for i in range (2):
+    x.remove(4)
+print(x)
